@@ -1,0 +1,25 @@
+li {
+  >span.not-done, >span.done {
+    display: inline-block;
+    padding-left: 10px;
+    float: right;
+    font-weight: 900;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  >span.not-done {
+    color: black;
+  }
+  >span.done {
+    color: green
+  }
+  >span.delete {
+    display: inline-block;
+    padding-left: 10px;
+    float: right;
+    font-weight: 900;
+    font-size: 25px;
+    color: red;
+    cursor: pointer;
+  }
+}
